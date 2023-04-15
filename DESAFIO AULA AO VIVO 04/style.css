@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0 ;
+}
+
+/* BARRA DE CABEÇALHO */
+header{
+    background: #303030;
+    display: flex;
+    align-items: center;
+}
+header img{
+    margin-left: 14px;
+}
+header h1{
+    margin-left: 31px;
+
+
+    color: white;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 42px;
+    line-height: 56px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+/* BARRA DE NAVEGAÇÃO */
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+/* BARRA DE APRESENTAÇÃO */
+#apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#apresentacao h2{
+    color: #265E70;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+
+    margin-top: -10px; 
+}
+#apresentacao img{
+    width: 400px;
+    margin-top: 40px;
+    padding: 10px;
+    background: url(/img/sobrefundo.svg);
+    background-repeat: no-repeat;
+   
+}
+/* BARRA APRENSENTAÇÃO DE VENDA */
+#container2 #motos{
+    color: #265E70;
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 33px;
+    line-height: 44px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+}
+/* BARA DE VENDA */
+#venda{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15px;
+}
+
+#compre{
+    background: rgba(77, 188, 233, 0.75);
+    border-radius: 15px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+#compre .apres1{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+#compre h4{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 6px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    margin-top: 13px;
+}
+#compre #borda{
+    background: #FFFFFF;
+    border-radius: 15px;
+    padding: 4px 20px 4px 20px;
+}
+#venda #direita{ 
+    margin-right: 15px;
+}
+#venda #esquerda{
+    margin-left: 15px;
+}
