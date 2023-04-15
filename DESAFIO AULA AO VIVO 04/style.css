@@ -53,10 +53,10 @@ header h1{
     text-align: center;
 
 
-    margin-top: -10px; 
+    margin-top: 30px; 
 }
 #apresentacao img{
-    width: 400px;
+    width: 450px;
     margin-top: 40px;
     padding: 10px;
     background: url(/img/sobrefundo.svg);
@@ -126,6 +126,7 @@ header h1{
 #compre #borda{
     background: #FFFFFF;
     border-radius: 15px;
+    border: 0;
     padding: 4px 20px 4px 20px;
 }
 #venda #direita{ 
@@ -133,4 +134,26 @@ header h1{
 }
 #venda #esquerda{
     margin-left: 15px;
+}
+/* SAIBA MAIS  */
+button{
+    background: #4DBCE9;
+    border-radius: 15px;
+    padding: 4px 20px 4px 20px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 47px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border: 0;
+
+    color: #FFFFFF;
+    margin-left: 69%;
+    margin-top: 1.5%;
+    
+
 }
